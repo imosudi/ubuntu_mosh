@@ -9,3 +9,4 @@ RUN /etc/init.d/ssh start
 
 EXPOSE 222
 
+CMD ["bash"]
