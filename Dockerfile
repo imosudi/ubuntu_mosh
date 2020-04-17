@@ -9,10 +9,10 @@ RUN echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 RUN /etc/init.d/ssh start
 
 
-EXPOSE 222
+#EXPOSE 222
 
-EXPOSE 22
+#EXPOSE 22
 
-RUN /etc/init.d/ssh start
+#RUN /etc/init.d/ssh start
 
 CMD ["bash"]
