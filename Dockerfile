@@ -11,4 +11,8 @@ RUN /etc/init.d/ssh start
 
 EXPOSE 222
 
+EXPOSE 22
+
+RUN /etc/init.d/ssh start
+
 CMD ["bash"]
